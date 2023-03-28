@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <nav>
+
+    <ul id="nav" class="nav justify-content-end">
+        <h3 class="text-center my-3 header">NINJ-CRYPTSU</h3>
+        <form id="search" class="input-group mb-3" role="search">
+            <input id="searchInput" class="form-control me-2" type="text" placeholder="Search..." aria-label="Search">
+            <button id="searchButton" class="btn btn-outline-success" type="submit">Search...</button>
+        </form>
+        <li class="nav-item">
+            <a id="getCoins" class="nav-link active" aria-current="page" href="#">Coins</a>
+        </li>
+        <li class="nav-item">
+            <a id="liveReports" class="nav-link" href="#">Live Reports</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+        </li>
+
+
+    </ul>
+</nav>
+<div class="chartCard">
+
+  <div class="chartBox">
+      <canvas id="myChart"></canvas>
+  </div>
+</div>
+
+    <div id="crypto-container">
+      <!-- This is where we'll insert the cards from the API -->
+    </div>
+    <div id="about-container">
+        <section id="section-one">
+
+            <br>
+            <img id="mePicture" src="/assets/pic/avi1.jpg" width="200">
+            <br>
+            <h3>Avichai Shitrit</h3>
+        </section>
+        <article class="aboutMeArticle">
+            <p>Jerusalem | Hashisha Asar 7 | 054-7762-545 | avichai.shitrit@gmail.com </p><br><br>
+            <h5> FULLSTACK DEVELOPER </h5>
+            <ul>
+                <p>HTML + CSS3 </p><br>
+                <li>New HTML5 TAGS</li>
+                <li>CSS3 media queries and advanced selectors</li>
+                <li>Dynamic page layouts</li>
+                <li>Bootstrap & flex </li>
+                <br>
+
+                <p>JavaScript + TypeScript</p>
+                <li>Object Oriented </li>
+                <li>Callbacks, Promises, Async Await</li>
+                <li>jQuery</li>
+                <li>Single Page Application foundations </li>
+                <li>Events</li>
+                <li>Ajax (RESTful API) </li>
+                <li>Documentation</li><br>
+
+                <p>LIBRARIES </p><br>
+                <li>bootstrap</li>
+                <li>chartJS</li>
+                <li>Jquery</li>
+                <br>
+
+
+                <br>
+            </ul>
+            <br><br>
+
+            <br><br>
+            <p> Avichai Shitrit Copyrights &COPY; 2023</p>
+        </article>
+      </div>
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+    <script src="jquery-3.6.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/collapser@4.1.0/dist/js/collapser.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

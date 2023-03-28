@@ -1,0 +1,177 @@
+body {
+    font-family: sans-serif;
+    background-image: url("/assets/pic/pic1.jpg");
+
+  }
+  .card {
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+  }
+  .logo {
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+   
+  }
+  .name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .price {
+    margin-top: 5px;
+  }
+
+  .header {
+    color: #fff;
+    font-family: Impact, fantasy;
+  }
+  #search {
+    display: flex;
+    margin: auto;
+    width: 30%;    
+    cursor: pointer;
+   
+  }
+  h3 {
+    
+    letter-spacing: 5px;
+    width: 25%;
+  }
+  h4 {
+    font-family: Impact, fantasy;
+    color: gold;
+    text-decoration: underline;
+  }
+
+  nav {
+   
+   
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    position:sticky;
+    
+    top: 0px;
+    
+   
+  }
+  #nav {
+    background-color: rgba(163, 13, 163, 0.397);
+  }
+  .nav-link {
+    color: gold;
+  }
+
+  
+  .chartCard {
+    max-width: 800px;
+    height: 60%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+  }
+  .chartBox {
+    
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 3px rgba(54, 162, 235, 1);
+    background-color: rgba(255, 255, 255, 0.85);
+  
+  }
+
+  /*about*/
+
+#section-one {
+  position: relative;
+  background-image: url(/assets/pic/wallpaperflare.com_wallpaper.jpg);
+  background-size: 100% 500px;
+  background-attachment: fixed;
+  padding: 50px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.445);
+}
+
+#section-one > span {
+  font-size: 22px;
+  font-family: "Notable", sans-serif;
+  display: inline-block;
+  color: white;
+}
+
+#section-one > p {
+  font-size: 22px;
+  font-family: "Notable", sans-serif;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgba(140, 0, 255, 0.527);
+  margin-top: 5px;
+  letter-spacing: 10px;
+}
+
+#section-one > h3 {
+  background-color: rgba(55, 1, 66, 0.682);
+  font-size: 22px;
+  font-family: "Notable", sans-serif;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgba(250, 250, 250, 0.6);
+  margin-top: 5px;
+  letter-spacing: 10px;
+}
+
+.aboutMeArticle > p {
+  color: white;
+  letter-spacing: 7px;
+}
+
+
+.aboutMeArticle > h5 {
+  color: black;
+  text-shadow: 1px 3px orange;
+  font-size: 35px;
+  font-family: "Cinzel", serif;
+  border-bottom: rgb(195, 0, 255) 1px solid;
+  letter-spacing: 10px;
+}
+.aboutMeArticle {
+  text-align: center;
+  background-color: black;
+  color: orange;
+  font-size: 22px;
+  height: 1400px;
+}
+
+ul > p {
+  display: inline-block;
+  color: rgb(189, 58, 255);
+  border-bottom: 1px dashed rgb(255, 0, 255);
+  width: 35%;
+}
+
+#aboutBox {
+  transition: 0.5s;
+}
+
+#mePicture {
+  border-radius: 10%;
+  display: inline-block;
+  box-shadow: 1px 2px 30px rgb(156, 154, 154);
+}
+
+.hide {
+  display: none;
+}
+  
